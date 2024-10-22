@@ -1,0 +1,18 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+div{
+  height: 200px;
+  width: 200px;
+  border: 0px solid;
+  background-color: yellowgreen;
+}
+
+@media screen and (orientation: landscape) {
+  div{
+    border: 20px solid green;
+  }
+}
